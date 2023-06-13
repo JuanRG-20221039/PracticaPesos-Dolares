@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica js</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CONVERTIDOR PESOS-DOLARES</h1>
+      </header>
+    
+      <main>
+        <h2>Ingresa los datos correspondientes:</h2>
+        <form>
+            <label for="pesos">Pesos:</label>
+            <input type="text" id="pesos" name="pesos" />
+        
+            <label for="dolares">Dólares:</label>
+            <input type="text" id="dolares" name="dolares" />
+        
+            <label for="tipoCambio">Tipo de Cambio:</label>
+            <input type="text" id="tipoCambio" name="tipoCambio" />
+        
+            <br /><br />
+        
+            <button type="button" onclick="convertirMoneda()">Convertir</button>
+            <button type="button" onclick="limpiarCampos()">Limpiar</button>
+          </form>
+      </main>
+    
+      <footer>
+      </footer>
+    <script src="./js/convertidor.js"></script>
+</body>
+</html>
